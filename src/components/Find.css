@@ -1,0 +1,85 @@
+/* Offer.css */
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff; /* White navbar */
+    border-bottom: 1px solid #e0e0e0; /* Soft border to separate it from the content */
+  }
+  
+  .navbar-brand {
+    color: #224abe; /* Blue brand text */
+  }
+  
+  .navbar a {
+    color: #224abe; /* Blue links */
+  }
+  
+  .navbar a:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Background Color of Main Section */
+  .bg-main-content {
+    background-color: #f4f8fc; /* Light background color for content */
+  }
+  
+  /* Gradient Button */
+  .custom-btn {
+    transition: all 0.3s ease;
+    background-color: #224abe; /* Blue button background */
+    color: white;
+  }
+  
+  .custom-btn:hover {
+    background-color: #2e59d9; /* Slightly darker blue on hover */
+    border-color: #224abe;
+  }
+  
+  /* Form Styling */
+  .form-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .form-card:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Inputs and Textareas */
+  .custom-input {
+    transition: all 0.3s ease;
+  }
+  
+  .custom-input:focus {
+    border-color: #4e73df; /* Focus border */
+    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  }
+  
+  input, textarea {
+    background-color: #f8f9fa; /* Light input background */
+  }
+  
+  input:focus, textarea:focus {
+    background-color: white; /* White background on focus */
+  }
+  
+  /* Background Gradient Effect for Page Sections */
+  .bg-gradient-primary {
+    background: linear-gradient(45deg, #4e73df, #224abe); /* Gradient header/footer sections */
+  }
+  
+  .text-blue-600 {
+    color: #224abe; /* Accent color for text */
+  }
+  
+  /* Success and Error Messages */
+  .text-green-500 {
+    color: #28a745; /* Green for success messages */
+  }
+  
+  .text-red-500 {
+    color: #dc3545; /* Red for error messages */
+  }
+  
